@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/1.5 "Lato", sans-serif;
+  background-color: #eee;
+  padding: 2em;
+}
+
+.site {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+  border-radius: 0.3em;
+  overflow: hidden;
+}
+
+.site-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+  gap: 2em;
+}
+
+.site-main {
+  flex: 1 1 400px;
+}
+
+.sidebar {
+  flex: 1 1 200px;
+}
+
+
+.site-content p
+.site-content h2 {
+  padding: 1em;
+}
+
+.site-header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header h1 {
+  color: #009900;
+  padding: 1rem 1.5rem;
+  background-color: #F8F8F8;
+}
+
+.site-header nav {
+  background-color: #444444;
+  color: #ccc;
+}
+
+.site-header nav ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.site-header nav li {
+  display: block;
+  list-style: none outside;
+  flex-grow: 1;
+}
+.site-header nav a {
+  display: block;
+  padding: 1em 1.5em;
+}
+
+.site-header nav a:hover {
+  background-color: orange;
+}
+
+.site-footer {
+  background-color: #444444;
+  color: #ccc;
+  text-align: center;
+  padding: 1em 1.5em;
+}
+
+@media (min-width: 600px) {
+  .site-header nav ul {
+    flex-direction: row;
+    text-align: left;
+  }
+}

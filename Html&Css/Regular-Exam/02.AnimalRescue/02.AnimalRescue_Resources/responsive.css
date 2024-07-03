@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+
+  header nav {
+    flex-direction: column;
+  }
+
+  .header-title {
+    padding: 0;
+  }
+
+  .our-dogs ul {
+    align-items: flex-start;
+  }
+
+  .our-dogs ul li {
+    margin-bottom: 0.5em;
+  }
+
+  .our-dogs ul li img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .helpNeed ul {
+    flex-direction: column;
+  }
+  
+}

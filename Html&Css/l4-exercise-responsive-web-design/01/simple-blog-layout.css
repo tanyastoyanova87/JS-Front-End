@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/1.5 "Lato", sans-serif;
+  background-color: #eee;
+  padding: 2em;
+}
+
+.site {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 2em;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+  border-radius: 0.3em;
+}
+
+.site > * {
+  padding: 2em;
+  border: 2px solid #ccc;
+  border-radius: 0.3em;
+}
+
+.header,
+.footer {
+  flex: 1 0 100%;
+}
+
+.main {
+  flex: 1 1 600px;
+}
+
+.sidebar {
+  flex: 1 0 200px;
+}

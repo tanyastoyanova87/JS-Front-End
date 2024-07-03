@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/1.5 Lato, sans-serif;
+  padding: 2em;
+}
+
+p {
+  padding-bottom: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.media {
+  margin-top: 2em;
+}
+
+
+.content {
+  padding: 0em 5em;
+}
+
+.body {
+  padding: 0em 2em;
+}
+
+.content > p {
+  padding-bottom: 0;
+}
+
+.body > p {
+  padding-bottom: 0;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h2 {
+  padding-top: 1em;
+}
+
+section > p {
+  padding: 0;
+}
+
+@media (height: 800px) {
+  body::before {
+    display: block;
+    content: 'The viewport height is 800px';
+    background-color: #369;
+    color: #fff;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+  }
+}
+
+@media (width: 600px) {
+  body::before {
+    display: block;
+    content: 'The viewport width is 600px';
+    background-color: #369;
+    color: #fff;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+  }
+}
+
+@media (orientation: landscape) {
+  body::before {
+    display: block;
+    content: 'The device is in landscape orientation';
+    background-color: #369;
+    color: #fff;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+  }
+}
+
+@media (hover: none) {
+  body::before {
+    display: block;
+    content: "This device doesn't support hover";
+    background-color: #369;
+    color: #fff;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+  }
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.5 "Poppins";
+}
+
+.site .site-main header h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding: 2em;
+}
+
+.site {
+  max-width: 1290px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.site .photo {
+  margin: 0 auto;
+}
+
+.site .photo img {
+  width: 100%;
+  height: auto;
+
+}
+
+.site .site-main {
+  max-width: 635px;
+}
+
+.site .site-main header h2 {
+  font-size: 25px;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+
+.site .site-main main {
+  margin-bottom: 3em;
+  margin-right: 2em;
+}
+
+.site .site-main main p {
+  margin-bottom: 1em;
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.site .site-main section {
+  display: flex;
+}
+
+.site .site-main section .img img {
+  max-width: 50px;
+  margin-right: 1em;
+}
+
+.site .site-main section {
+  margin-bottom: 1em;
+}
+
+.site .site-main section .text p {
+  opacity: 0.6;
+}

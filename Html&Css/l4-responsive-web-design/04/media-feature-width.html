@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Feature Width</title>
+  <link rel="stylesheet" href="media-feature-width.css">
+</head>
+<body>
+  <h1>Media Feature - width, min-width, max-width</h1>
+
+  <h2 class="first-h2">width</h2>
+
+  <section>
+    <p>@media (width: 800px) {</p>
+      <div class="body"> 
+      <p>body::before {</p>
+      </div>
+      <div class="content">
+        <p>display: block;</p>
+          <p>content: 'The viewport width is exactly 800px';</p>
+          </div>
+          <div class="body">
+            <p> }</p>
+          </div>
+              <p> }</p>
+  </section>
+
+  <h2>min-width</h2>
+
+  <section>
+    <p>@media (min-width: 800px)  {</p>
+      <div class="body"> 
+      <p>body::before {</p>
+      </div>
+      <div class="content">
+        <p>display: block;</p>
+          <p>content: 'The viewport width is larger than 800px';</p>
+          </div>
+          <div class="body">
+            <p> }</p>
+          </div>
+              <p> }</p>
+  </section>
+
+  <h2>max-width</h2>
+
+  <section>
+    <p>@media (max-width: 800px) {</p>
+      <div class="body"> 
+      <p>body::before {</p>
+      </div>
+      <div class="content">
+        <p>display: block;</p>
+          <p>content: 'The viewport width is smaller than 800px';</p>
+          </div>
+          <div class="body">
+            <p> }</p>
+          </div>
+              <p> }</p>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Lato",sans-serif;
+  padding: 2em;
+}
+
+.socials li {
+  display: inline-block;
+  list-style: none outside;
+  background: #eee;
+  font-size: 2em;
+  width: 5rem;
+  aspect-ratio: 1/1;
+  text-align: center;
+  line-height: 5rem;
+  border-radius: 50%;
+  margin: 1rem 0.4rem;
+}
+
+.socials li a {
+  color: black;
+}

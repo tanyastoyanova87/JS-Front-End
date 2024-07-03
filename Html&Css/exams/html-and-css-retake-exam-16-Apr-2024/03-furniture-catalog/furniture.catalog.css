@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap ");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.5 "PT Sans";
+}
+
+.background-class {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.background-class::before {
+  display: block;
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.sticker img {
+  width: 120px;
+  padding-top: 2em;
+  padding-left: 2em;
+  display: block;
+}
+
+.sticker {
+  width: 10%;
+  position: relative;
+  left: 15em;
+  top: 5em;
+}
+
+.nav {
+  display: flex;
+  padding-top: 2.2em;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 20em;
+
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none outside;
+  gap: 1.5em;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.header-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10em;
+}
+
+.header h1 {
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button {
+  margin-top: 2em;
+  margin-bottom: 10em;
+}
+
+.button a {
+  text-decoration: none;
+  background-color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  color: grey;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.catalog-class {
+  background-color: #60ACC1;
+  padding-bottom: 1em;
+}
+
+.catalog-class header {
+  text-align: center;
+  padding: 2em;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2em;
+  margin-bottom: 5em;
+
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  border-right: 10px solid #60ACC1;
+  box-shadow: 0 0 1.5em 0 rgb(0, 0, 0, 0.8);
+}
+
+.image-container .text {
+  padding: 2em;
+  background-color: white;
+  max-width: 100%;
+}
+
+.image-container .text .bold {
+  font-weight: bold;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.image-container .text p {
+  font-size: 16px;
+}
+
+
+.image-container img {
+  width: 55%;
+  height: auto;
+  object-fit: cover;
+}
+
+.containar-furniture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+
+.containar-one,
+.containar-two,
+.containar-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containar-one img,
+.containar-two img,
+.containar-three img {
+  width: 30%;
+  height: auto;
+}
+
+.containar-two img {
+  height: 150px;
+}
+
+.containar-one .text {
+  text-align: center;
+  padding: 0 6em 0 6em;
+  opacity: 0.7;
+}
+
+.containar-two .text {
+  text-align: center;
+  padding: 0 3em 0 3em;
+  opacity: 0.7;
+}
+
+.containar-three .text {
+  text-align: center;
+  padding: 0 2em 0 2em;
+  opacity: 0.7;
+}
+
+.containar-one .text h2,
+.containar-two .text h2,
+.containar-three .text h2 {
+  margin-bottom: 0.5em;
+}
+
+.containar-two .text p,
+.containar-one .text p,
+.containar-three .text p {
+  font-size: 16px;
+}
+
+.containar-two .text p {
+  text-indent: -16px;
+}
+
+.catalog-class header .italic {
+  font-style: italic;
+}
+
+.catalog-class header p {
+  font-size: 16px;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  gap: 6em;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2em;
+  margin-top: 1em;
+}
+
+.pictures img {
+  width: 25%;
+  height: auto;
+  box-shadow: 0 0 1em 0.3em rgb(0, 0, 0, 0.5);
+}
+
+.about-us {
+  padding: 3em 0 3em 0;
+}
+
+.about-us header {
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 3em;
+}
+
+.about-us header p {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.about-us main {
+  width: 58%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0.5em 0 0.5em;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 16px;
+  background-color: #2D333C;
+  color: white;
+  padding: 1em;
+}

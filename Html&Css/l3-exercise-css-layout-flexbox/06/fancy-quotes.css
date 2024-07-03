@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/1.5 "Lato", sans-serif;
+  background-color: #eee;
+  padding: 2em;
+}
+
+.site {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2em;
+}
+
+article {
+  background-color: white;
+  padding: 2em;
+  
+}
+
+.site > main {
+  flex: 0 0 70%;
+}
+
+.site > aside {
+  flex: 1 1 auto;
+  display: flex;
+
+}
+
+article + article {
+  margin-top: 2em;
+}

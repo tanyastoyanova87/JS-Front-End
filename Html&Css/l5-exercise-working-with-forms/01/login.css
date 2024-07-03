@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0;
+}
+
+html {
+  padding: 2em;
+  font: 14px/1.5 Lato, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eee;
+}
+
+body,
+fieldset,
+select,
+input,
+label {
+  font: inherit;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  width: 489px;
+  height: 443px;
+  background-color: white;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+  padding: 3em;
+  border-radius: 0.2em;
+}
+
+legend {
+  padding: 2em;
+}
+
+p {
+  margin-top: 1em;
+}
+
+input {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: none;
+  width: 100%;
+  background-color: darkorange;
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+}

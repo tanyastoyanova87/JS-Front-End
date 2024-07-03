@@ -1,0 +1,18 @@
+p.highlighted {
+  color: blue;
+  font-size: 14px;
+}
+
+div#special {
+  background-color: coral;
+  padding: 5px;
+}
+
+a[href^="http"] {
+  border-bottom: 1px solid orange;
+  color: orange;
+}
+
+p.fancy.highlighted {
+  background-color: aquamarine;
+}

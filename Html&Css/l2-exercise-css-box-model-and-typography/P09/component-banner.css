@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+}
+
+section {
+  background-image: url(image/image1.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+h1 {
+  padding-bottom: 0.2em;
+}
+
+p {
+  margin-bottom: 0.2em;
+}

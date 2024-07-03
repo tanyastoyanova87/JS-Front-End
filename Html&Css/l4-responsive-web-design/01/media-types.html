@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Types</title>
+    <link rel="stylesheet" href="media-types.css" />
+  </head>
+  <body>
+    <h1>Media Types</h1>
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types"
+      >https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types</a
+    >
+    <p class="media">Media types describe the general category of a device. Except when using the not or only logical operators, the media type is optional and the all type is implied.</p>
+
+    <h2>all</h2>
+    <p>Suitable for all devices</p>
+    <p>@media all {</p>
+      <div class="scopes">
+    <p>* {</p>
+      </div>
+      <section>
+    <p>padding: 0;</p>
+    <p>margin: 0;</p>
+    <p>box-sizing: border-box;</p>
+  </section>
+  <div class="scopes">
+    <p>}</p>
+
+    <p>body {</p>
+  </div>
+      <section>
+    <p>padding: 2em;</p>
+    <p>font: 14px/1.5 Lato, sans-serif;</p>
+  </section>
+  <div class="scopes">
+    <p>}</p>
+
+    <p>p {</p>
+    </div>
+    </section>
+      <section>
+    <p>padding-bottom: 1.5em;</p>
+  </section>
+  <div class="scopes">
+    <p>}</p>
+    </div>
+    <p>}</p>
+
+    <h2>print</h2>
+    <p>Intended for paged material and documents viewed on a screen in print preview mode</p>
+
+    <p>@media print {</p>
+      <div class="scopes">
+      <p>body::before {</p>
+      </div>
+        <section>
+        <p>display: block;</p>
+          <p>content: 'The page is using a print preview or it was printed';</p>
+        </section>
+        <div class="scopes">
+          <p>}</p>
+        </div>
+          <p>}</p>
+
+
+    <h2>screen</h2>
+    <p>Intended primarily for screens</p>
+
+    <p>@media screen {</p>
+      <div class="scopes">
+      <p>body::before {</p>
+      </div>
+        <section>
+        <p>display: block;</p>
+        <p>content: 'The page is being shown on a screen';</p>
+      </section>
+      <div class="scopes">
+        <p>}</p>
+      </div>
+        <p>}</p>
+  </body>
+</html>

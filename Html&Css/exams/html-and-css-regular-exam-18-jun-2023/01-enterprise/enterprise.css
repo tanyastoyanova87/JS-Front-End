@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1/5;
+  font-family: inter;
+}
+
+body {
+  padding: 2em;
+  background-color: #d9d9d9;
+}
+
+
+header p {
+  font-weight: bold;
+  opacity: 0.5;
+  margin-bottom: 0.5em;
+}
+
+header h2 {
+  font-weight: normal;
+  opacity: 0.8;
+  margin-bottom: 1em;
+}
+
+main p {
+  line-height: 1.5;
+  opacity: 0.6;
+  margin-bottom: 2em;
+}
+
+hr {
+  border: 0.5px solid black;
+  margin-bottom: 1em;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.site1,
+.site2,
+.site3 {
+  max-width: 545px;
+  max-height: 735px;
+  padding: 2em;
+  box-shadow: 1em 1em 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+
+.images img {
+  display: block;
+  max-width: 545px;
+  min-height: 313px;
+  width: 100%;
+  height: 100%;
+}
+
+
+footer img {
+  max-width: 60px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p:first-of-type {
+  text-indent: -7.5em;
+  opacity: 0.7;
+}
+
+footer p:last-of-type {
+  opacity: 0.4;
+}

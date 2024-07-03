@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 18px/1.5 "Gochi Hand";
+}
+
+body {
+  background-color: #E0E0E0;
+  padding: 2em;
+}
+
+.site {
+  width: 1000px;
+  background-color: #F9F9F9;
+  margin: 0 auto;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.container-header {
+  width: 950px;
+  height: 535px;
+  background-image: url(01.Postcard_Resources/images/nature.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F9F9F9;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0.7em 1.3em;
+  margin-bottom: 0.2em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.container-header header {
+  text-align: center;
+  padding: 1.1em 1em 1.1em 1em;
+  background-color: #F3F4F3;
+  text-indent: 10px;
+  border-radius: 0.5em;
+}
+
+.container-header header h1 {
+  font-size: 24px;
+  margin-bottom: 0.6em;
+  opacity: 0.8;
+}
+
+.container-header header p {
+  opacity: 0.7;
+}
+
+.container-footer {
+  width: 1000px;
+  margin: 0 auto;
+  border-top: 2px solid #CCCCCC;
+  padding: 39px 48px;
+  background-color:#F3F4F3;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.container-footer footer h1 {
+  font-size: 24px;
+  margin-bottom: 1em;
+  opacity: 0.8;
+}
+
+.container-footer footer p {
+  font-size: 20px;
+  line-height: 2;
+  opacity: 0.7;
+}

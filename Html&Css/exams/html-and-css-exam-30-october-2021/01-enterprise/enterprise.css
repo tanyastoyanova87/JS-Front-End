@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.5 Helvetica;
+}
+
+body {
+  padding: 2em;
+  background-color: #F6F8F9;
+}
+
+.site {
+  display: flex;
+  max-width: 2384px;
+  max-height: 928px;
+  margin: 0 auto;
+}
+
+.site .main-site {
+  max-width: 836px;
+  margin-left: 8.21em;
+  margin-top: 11.42em;
+  margin-right: 50em;
+}
+
+.site .main-site header p {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+}
+
+.site .main-site header h1 {
+  font-size: 64px;
+  font-weight: normal;
+  margin-top: 2.5rem;
+  margin-bottom: 2.23rem;
+}
+
+.site .main-site main p {
+  opacity: 0.5;
+  line-height: 1.8;
+  font-size: 40px;
+  margin-bottom: 1.75em;
+}
+
+.site .main-site footer {
+  font-size: 36px;
+  display: flex;
+  gap: 0.94em;
+}
+
+.site .main-site footer a {
+  text-decoration: none;
+}
+
+.site .main-site footer .purple {
+  padding: 0.7em 1.44em;
+  border-radius: 0.3em;
+  background-color: #7573F6;
+}
+
+.site .main-site footer .purple a {
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+.site .main-site footer .ordinary {
+  padding: 0.7em 1.44em;
+  border-radius: 0.3em;
+  border: 2px solid ;
+}
+
+.site .main-site footer .ordinary a {
+  letter-spacing: 0.1em;
+  color: inherit;
+}
+
+.site .photo {
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+}

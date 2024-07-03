@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 18px/1.5 Karla;
+}
+
+body {
+  background-image: url(images/poster.jpg);
+  background-repeat: no-repeat;
+  background-size: 1920px 870px;
+  background-position: center top;
+}
+
+body::before {
+  display: block;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgb(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.header-class {
+  padding-bottom: 8em;
+}
+
+.header-class nav ul {
+  display: flex;
+  list-style: none outside;
+  gap: 2.5em;
+}
+
+.header-class nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-class img {
+  max-width: 100px;
+}
+
+.header-class nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 4em;
+}
+
+.header-class img {
+  position: relative;
+  top: 2em;
+  left: 3em;
+}
+
+.header-class header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-class header h1 {
+  padding-top: 3.1em;
+  color: white;
+  font-size: 90px;
+  font-family: "Cormorant Infant";
+  margin-bottom: 1.3em;
+}
+
+.header-class header p {
+  margin-bottom: 2em;
+  color: white;
+  width: 40%;
+  text-align: center;
+  line-height: 2;
+}
+
+.textarea-class {
+  background-color: #F8F0E9;
+  padding: 0 12em 0 12em;
+  padding-top: 2em;
+}
+
+.textarea-class .textarea {
+  font-family: "Cormorant Infant";
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bold;
+  color: #352B2A;
+  line-height: 1;
+  padding-bottom: 2em;
+}
+
+.textarea-class .normal-p {
+  margin-bottom: 5em;
+  opacity: 0.8;
+}
+
+.support {
+  padding: 3em 0 3em 0;
+  background-color: #E14747;
+  color: white;
+  text-align: center;
+}
+
+.support header h1 {
+  margin-bottom: 1em;
+}
+
+.support p {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.photo-container {
+  padding: 4em 0 4em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F0E9;
+}
+
+.photo-container img {
+  width: 35%;
+  height: auto;
+}
+
+.photo-container header h1 {
+  font-size: 70px;
+  font-family: "Cormorant Infant";
+  padding: 0 7em 0 7em;
+  text-align: center;
+  margin-top: 1em;
+  line-height: 1;
+}
+
+.photo-container p {
+  width: 35%;
+  margin-top: 3em;
+}
+
+.read-more a, .read-all a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+}
+
+.read-more a {
+  margin-right: 22em;
+
+}
+
+.read-more {
+  margin-top: 4em;
+}
+
+.read-all {
+  margin-top: 4em;
+}
+
+.guide {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #E14747;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.guide header h1 {
+  font-size: 60px;
+  font-family: "Cormorant Infant";
+  padding-bottom: 1.5em;
+}
+
+.guide p {
+  max-width: 57%;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+  background-color: #FAD87A;
+  padding: 1em 1.2em;
+  border-radius: 3em;
+}
+
+.footer {
+  background-color: #352B2A;
+  padding: 2em 5em 2em 5em;
+  color: white;
+}
+
+.footer img {
+  max-width: 15%;
+  margin-bottom: 1em;
+}
+
+.content {
+  max-width: 38%;
+}
+
+.normal-p {
+  margin-bottom: 2em;
+}
+
+.mini-p {
+ opacity: 0.2;
+}

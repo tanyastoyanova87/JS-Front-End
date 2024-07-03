@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid white;
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 2em;
+}
+
+details {
+  border: 2px solid darkgrey;
+  padding: 1em;
+}
+
+summary {
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+summary::before {
+  display: inline-block;
+  content: '>';
+  margin-right: 0.5em;
+}
+
+details[open] summary::before {
+  content: '^';
+  transform: rotate(180deg);
+  margin-right: 0.5em;
+}
+
+p {
+  padding: 0.5em;
+  padding-top: 1em;
+}
+
+.first,
+.second {
+  border-bottom: 0;
+}

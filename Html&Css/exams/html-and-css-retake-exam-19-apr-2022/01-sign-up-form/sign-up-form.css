@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.5 "Open Sans";
+}
+
+body, input, label, form {
+  font: inherit;
+} 
+
+body {
+  padding: 2em;
+  background-color: #E9E9E9;
+}
+
+.site {
+  max-width: 840px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.photo {
+  max-width: 440px;
+  background-image: url(images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+  padding: 2em;
+  border: 2px solid black;
+}
+
+
+.softuni {
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 12em;
+}
+
+.photo header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 12em;
+}
+
+.photo header h1 {
+  font-weight: normal;
+  font-size: 2.57em;
+}
+
+.photo header p {
+  font-size: 1.71em;
+}
+
+.icons {
+  display: flex;
+}
+
+form {
+  max-width: 440px;
+  max-height: 532px;
+  background-color: #FAFAFA;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+form p {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 1.4em;
+  font-size: 15px;
+  opacity: 0.2;
+}
+
+form input {
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background-color: #FAFAFA;
+  margin-bottom: 1.4rem;
+}
+
+form input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 0.5em 2.5em;
+  border-radius: 5em;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  opacity: 0.8;
+}
+
+form .footer {
+  margin-top: 2em;
+}
+
+form .footer a {
+  margin-right: 1.5em;
+  color: grey;
+  font-weight: bold;
+}

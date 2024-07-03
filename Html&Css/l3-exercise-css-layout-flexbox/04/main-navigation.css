@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav {
+  max-width: 1000px;
+  border: 2px solid lightgray;
+  display: flex;
+  margin: 2em auto;
+}
+
+ul {
+  list-style: none;
+}
+
+
+nav li {
+  display: inline-block;
+  /* border: 2px solid lightgray; */
+}
+
+li li {
+  visibility: hidden;
+}
+

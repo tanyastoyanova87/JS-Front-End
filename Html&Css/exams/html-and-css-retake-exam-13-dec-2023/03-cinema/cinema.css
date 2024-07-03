@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+ font: 18px/1.5 Ubuntu; 
+}
+
+.banner {
+  display: flex;
+  align-items: start;
+  justify-content:space-between;
+}
+
+.banner header h1 {
+  font-size: 48px;
+  border-right: 3px solid lightgrey;
+  padding-right: 0.5em;
+}
+
+.banner header {
+  display: flex;
+  margin: 2.55em 3.5em;
+  gap: 3.94em;
+  align-items: flex-end;
+}
+
+.banner header p {
+  margin-bottom: 0.8em;
+  opacity: 0.5;
+  letter-spacing: 0.16em;
+}
+
+nav {
+  padding: 1.27em 3.27em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none outside;
+}
+
+nav ul li {
+  padding: 1.55em 1.44em;
+  background-color: lightblue;
+  margin-left: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  letter-spacing: 0.16em;
+  color: black;
+}
+
+.green {
+  background-color: #56DBB1;
+}
+
+.grey {
+  background-color: #ECECEC;
+}
+
+.grey a {
+  opacity: 0.5;
+}
+
+.background img {
+  width: 100%;
+  max-height: 625px;
+}
+
+.background .text {
+  background-color: #56DBB1;
+  padding: 5.22em 11.8em;
+  text-align: center;
+  line-height: 2em;
+}
+
+.background .text p {
+  padding: 3em;
+}
+
+.container {
+  display: flex;
+  padding: 8.27em 16.38em;
+  background-color: #353434;
+  color: white;
+  text-align: center;
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo i {
+  font-size: 61px;
+  background-color: #56DBB1;
+  padding: 0.5em;
+  margin-bottom: 29px;
+}
+
+.mini-container .photo h1 {
+  font-size: 20px;
+  margin-bottom: 1.4em;
+}
+
+.mini-container .photo {
+  border-bottom: 2px solid white;
+  margin-bottom: 1.4em;
+  width: 352px;
+}
+
+.mini-container .text p {
+  opacity: 0.2;
+  line-height: 2;
+  text-indent: -4px;
+}
+
+.mini-container .text {
+  width: 352px;
+}
+
+.white-container {
+  padding: 5.77em;
+  text-align: center;
+}
+
+.white-container h1 {
+  opacity: 0.7;
+  font-size: 40px;
+}
+
+.white-container p {
+  font-size: 20px;
+  margin-top: 18px;
+  margin-bottom: 2em;
+  opacity: 0.3;
+}
+
+.white-container a {
+  background-color: #974D1B;
+  text-decoration: none;
+  color: white;
+  padding: 1.15em 2em;
+  letter-spacing: 4px;
+}
+
+.mini-container .dif {
+  font-size: 32px;
+  margin-bottom: 1.12em;
+}
+
+.mini-container-2 {
+  min-width: 370px;
+}
+
+.mini-container-2 p {
+ text-align: center;
+ line-height: 2;
+ margin-top: 1.8em;
+ opacity: 0.3;
+}
+
+.footer {
+  background-color: #1B9772;
+  padding: 4.66em 22.16em;
+  color: white;
+  text-align: center;
+}
+
+.footer span {
+  opacity: 0.5;
+  letter-spacing: 0.33em;
+}

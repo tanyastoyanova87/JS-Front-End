@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 18px/1.5 "PT Sans";
+}
+
+.background {
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 2em;
+}
+
+.background .banner img {
+  max-width: 100px;
+  margin-left: 1em;
+  padding-top: 1em;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5em;
+}
+
+.banner nav {
+  padding: 2em 2em;
+}
+
+.banner nav ul {
+  display: flex;
+  list-style: none outside;
+  gap: 1em;
+}
+
+.banner nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.background header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10em;
+}
+
+.background header h1 {
+  font-family: "PT Serif";
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.background header p {
+  margin-top: 1em;
+  width: 38%;
+  font-size: 20px;
+}
+
+.background header {
+  margin-bottom: 12em;
+}
+
+.container-white-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 168px 226px;
+  gap: 3em;
+  border-bottom: 3px solid #CCCCCC;
+}
+
+.container-1 h1 {
+  font-family: "Pt Serif";
+  font-size: 45px;
+  font-weight: normal;
+  margin-bottom: 0.3em;
+}
+
+.container-1 p {
+  opacity: 0.7;
+  max-width: 85%;
+  margin-bottom: 3em;
+}
+
+.container-1 .second-container-p {
+  max-width: 90%;
+}
+
+.container-1 a {
+  margin-top: 2em;
+  text-decoration: none;
+  border: 2px solid #B0825C;
+  color: #B0825C;
+  padding: 0.5em 1em;
+}
+
+.sponsors-contaner {
+  padding: 69px 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsors-contaner header {
+  text-align: center;
+}
+
+.sponsors-contaner header h1 {
+  font-family: "PT Serif";
+  font-size: 50px;
+  color: #B0825C;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+.sponsors-contaner header p {
+  opacity: 0.6;
+  line-height: 2;
+}
+
+.sponsors-contaner .logos {
+  display: flex;
+  gap: 5em;
+  margin: 4em 0 4em 0;
+}
+
+.sponsors-contaner .logos img {
+  max-width: 188px;
+  padding: 33px;
+  background-color: #DDDDDD;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  background-color: #171720;
+  color: white;
+  padding: 69px 350px 69px 223px;
+  gap: 6em;
+  border-bottom: 1px solid #3A3A41;
+}
+
+.info .container h2 {
+  font-family: "PT Serif";
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+.info .container p {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 3;
+  opacity: 0.5;
+}
+
+.footer {
+  background-color: #171720;
+  padding: 1.5em 17em;
+}
+
+.footer p {
+  color: white;
+  opacity: 0.5;
+}

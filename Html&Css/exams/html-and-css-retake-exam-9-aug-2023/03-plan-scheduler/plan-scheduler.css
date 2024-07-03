@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 16px/1.5 Inter;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.2em 3em 1.4em 5em;
+  background-color: #D9D9D9;
+}
+
+.banner nav ul {
+  padding-top: 1em;
+  display: flex;
+  list-style: none outside;
+  gap: 2em;
+}
+
+.banner ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner p {
+  border: 2px solid black;
+  background-color: white;
+  font-size: 16px;
+  padding: 0.8em 1.25em 0.75em 1.3em;
+  border-radius: 0.4em;
+}
+
+.banner p a {
+  text-decoration: none;
+  color: black;
+}
+
+.background {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 194px;
+}
+
+.background header {
+  display: flex;
+  flex-direction: column;
+  max-width: 717px;
+}
+
+.background header h1 {
+  font-size: 64px;
+  margin-bottom: 1.6em;
+}
+
+.background header .p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 4em;
+  font-weight: bold;
+}
+
+.background header .button a {
+  font-size: 16px;
+  padding: 1.4em 2.5em 1.5em 2.5em;
+  background-color: black;
+  border-radius: 0.3em;
+  text-decoration: none;
+  color: white;
+}
+
+.white-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 112px 152px 60px 152px;
+  gap: 3.3em;
+}
+
+.white-container .container h1 {
+  font-size: 64px;
+  color: #FF7C4C;
+  margin-bottom: 1em;
+}
+
+.white-container .container h3 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 0.5em;
+}
+
+.white-container .container p {
+  opacity: 0.7;
+}
+
+.pictures-container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 166px 60px 85px;
+  background-color: #D9D9D9;
+  gap: 40px;
+}
+
+.pictures-container .container-pic {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+}
+
+.pictures-container .container-pic img {
+  max-width: 625px;
+  max-height: 428px;
+}
+
+.pictures-container .container-pic header p {
+  font-size: 20px;
+  padding-top: 1.2em;
+  opacity: 0.5;
+  font-weight: bold;
+  margin-bottom: 3.3em;
+}
+
+.pictures-container .container-pic header h1 {
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+
+.pictures-container .container-pic main p {
+  font-size: 20px;
+  opacity: 0.7;
+  margin-bottom: 0.2em;
+}
+
+.pictures-container .container-pic main .more {
+  font-weight: 700;
+  margin-bottom: 2em;
+}
+
+.container-pic footer p {
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+.plans .container-white {
+  padding-top: 2.3em;
+  max-width: 510px;
+}
+
+.plans .container-white h1 {
+  font-size: 40px;
+  margin-bottom: 1.8em;
+}
+
+.plans .container-white p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.plans {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 60px;
+  justify-content: center;
+  border-left: 85px solid #F5F5F5;
+  border-right: 85px solid #F5F5F5;
+}
+
+.container-free-orange {
+  background-color: #FF7C4C;
+  padding: 46px 172px;
+  text-align: center;
+}
+
+.plans .container-free-orange h3 {
+  font-size: 32px;
+}
+
+.plans .container-free-orange h1 {
+  font-size: 90px;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+}
+
+.plans .container-free-orange p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.plans .container-free-orange span {
+  font-weight: bold;
+}
+
+.plans .container-free-orange .button-p {
+  background-color: black;
+  padding: 1.4em 2.5em;
+  font-size: inherit;
+  border-radius: 0.3em;
+  margin-top: 4em;
+}
+
+.plans .container-free-orange .button-p a {
+  color: white;
+  text-decoration: none;
+}
+
+.container-free-black {
+  background-color: black;
+  color: white;
+  padding: 46px 172px;
+  text-align: center;
+}
+
+.plans .container-free-black h3 {
+  font-size: 32px;
+}
+
+.plans .container-free-black h1 {
+  font-weight: normal;
+  font-size: 90px;
+  margin-bottom: 0.5em;
+}
+
+.plans .container-free-black p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.plans .container-free-black span {
+  font-weight: bold;
+}
+
+.plans .container-free-black .button-p {
+  background-color: white;
+  padding: 1.4em 2.5em;
+  font-size: inherit;
+  border-radius: 0.3em;
+  margin-top: 4em;
+}
+
+.plans .container-free-black .button-p a {
+  color: black;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2.5em;
+  background-color: #D9D9D9;
+}
+
+.icons i {
+  font-size: 23px;
+}

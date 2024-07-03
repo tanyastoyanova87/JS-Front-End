@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.5;
+  font-family: Mulish;
+}
+
+body, form, input, label, legend {
+  font: inherit;
+}
+
+body {
+  background-image: url(images/background.png);
+  background-position: 50% 50%;
+  padding: 2em;
+}
+
+.site {
+  background-image: url(images/form-background.png);
+  background-position: 80% 50%;
+  max-width: 1000px;
+  max-height: auto;
+  margin: 0 auto;
+  border-radius: 2em;
+  box-shadow: 20px 20px 8px -2px rgb(0, 0, 0, 0.3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 2em;
+  gap: 1em;
+  margin: 2em;
+}
+
+form legend {
+  margin-top: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.name-container {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 1em;
+}
+
+form input {
+  border-radius: 1em;
+  padding: 0.5em;
+  border: none;
+  border: 2px solid lightgrey;
+  background-color: #FAFAFA;
+}
+
+form label {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.checkbox input {
+ background-color: #EBEBEB;
+}
+
+.button {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.button a {
+  text-decoration: none;
+  background-color: #AE3C33;
+  color: white;
+  padding: 0.7em 1.5em;
+  text-transform: uppercase;
+  border-radius: 2em;
+}

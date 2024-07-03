@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2em;
+  background: #eee;
+  font: 14px/1.5em Lato, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.site {
+  padding: 2em;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 0.3em;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+h2, p {
+  margin-bottom: 1em;
+}
+
+ul li {
+  margin-left: 1.5em;
+}
+
+footer p {
+  margin-top: 1em;
+}
+
+h2 {
+  font-weight: bold;
+}

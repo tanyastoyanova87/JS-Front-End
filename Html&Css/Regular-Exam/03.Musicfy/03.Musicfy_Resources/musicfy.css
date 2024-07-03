@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 18px/1.5 Lato;
+}
+
+.banner {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.banner img {
+  max-width: 100px;
+  height: 50px;
+  padding: 0.5px;
+}
+
+.banner nav ul {
+  list-style: none outside;
+  display: flex;
+  gap: 2.5em;
+  padding: 1em;
+}
+
+.banner nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.plans {
+  padding-top: 3.7em;
+  color: white;
+  background-color: #1DB954; 
+  height: 375px;
+}
+
+.plans h3 {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 1.3em;
+}
+
+
+.plan-1 {
+  background-color: white;
+  max-width: 519px;
+  min-height: 426px;
+  border: 2px solid #000000;
+  line-height: 2;
+  position: relative;
+  left: 18em;
+  bottom: 12em;
+  border-radius: 1em;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.plan-1 ul {
+  list-style: circle inside;
+  padding: 0 2.3em;
+}
+
+.plan-1 h2 {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 2.4em;
+  padding-top: 1.6em;
+}
+
+.plan-1 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+}
+
+.plan-1 a {
+  background-color: #1DB954;
+  text-decoration: none;
+  color: white;
+  padding: 0.8em 2.6em;
+  border-radius: 5em;
+}
+
+.footer-plan-1 {
+  background-color: #000000;
+  width: 519px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4em 0 1.4em 1.1em;
+  gap: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.footer-plan-1 p:first-of-type {
+  border-right: 2px solid white;
+  padding-right: 0.5em;
+}
+.footer-plan-2 {
+  background-color: #000000;
+  width: 519px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4em 0 1.4em 1.1em;
+  gap: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+
+.green-white-container img {
+  position: relative;
+  top: 42em;
+  height: 650px;
+}
+
+.plan-2 {
+  background-color: white;
+  max-width: 519px;
+  min-height: 426px;
+  border: 2px solid #000000;
+  line-height: 2;
+  position: relative;
+  left: 60em;
+  bottom: 46em;
+  border-radius: 1em;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.plan-2 ul {
+  list-style: circle inside;
+  padding: 0 2.3em;
+}
+
+.plan-2 h2 {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 1em;
+  padding-top: 1.6em;
+}
+
+.plan-2 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.5em;
+  margin-bottom: 1.6em;
+}
+
+.plan-2 a {
+  background-color: #1DB954;
+  text-decoration: none;
+  color: white;
+  padding: 0.8em 2.6em;
+  border-radius: 5em;
+}
+
+.dog-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.dog-container .text {
+  padding: 0 150px 0 100px;
+}
+
+.dog-container h1 {
+  margin-bottom: 1em;
+  font-size: 24px;
+  font-family: Montserrat;
+}
+
+.dog-container p {
+  font-size: 20px;
+  margin-bottom: 0.8em;
+}
+
+.dog-container .pic img {
+  width: 486px;
+  height: 245px;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.difference {
+  margin-top: 4em;
+}
+
+.difference header {
+  text-align: center;
+}
+
+.difference header h1 {
+  font-family: Montserrat;
+  font-size: 50px;
+  margin-bottom: 1em;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.container p {
+  padding: 1em;
+}
+
+.container .grey {
+  background-color: #CCCBCB;
+}
+
+.container .green {
+  background-color: #81D8A0;
+}
+
+.footer-container {
+  margin-top: 7em;
+  background-color: #191414;
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+
+.container .first {
+  margin-left: 50em;
+}
+.container .second {
+  margin-left: 48.9em;
+}
+.container .third {
+  margin-left: 50.2em;
+}
+.container .forth {
+  margin-left: 52.5em;
+}
+.container .fifth {
+  margin-left: 47.1em;
+}
+.container .sixth {
+  margin-left: 49.5em;
+}
+
+.container img {
+  margin-left: 9em;
+}
+
