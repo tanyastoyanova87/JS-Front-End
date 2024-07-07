@@ -27,7 +27,5 @@ function solve(base, increment) {
   console.log(`Final pyramid height: ${Math.floor(steps * increment)}`);
 }
 
-solve(11,
-
-  1)
+solve(11, 1)
 
